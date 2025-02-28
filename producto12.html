@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/fondo18.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>Acer Predator X34</h1>
+
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/monitor.jpeg" alt="EVGA SuperNOVA 1000W 80+ Platinum">
+
+            <div class="camisa__contenido">
+                <p> El Acer Predator X34 es un monitor curvo de 34" UltraWide QHD (3440x1440) diseñado para jugadores que buscan una experiencia envolvente y fluida. Con una tasa de refresco de hasta 180Hz y compatibilidad con NVIDIA G-SYNC, elimina el tearing y el stuttering para un gameplay ultra suave.</p>
+
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>-- Seleccionar Talla --</option>
+                        <option>34 Pulgadas</option>
+                        <option>38 Pulgadas</option>
+                        <option>32 Pulgadas</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - @ Todos los derechos Reservados 2025.Portales Web</p>
+    </footer>
+    <script src="js/carrito.js"></script>
+</body>
+</html>
